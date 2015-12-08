@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int sayi;
+printf("bir sayi gir");
+scanf("%d",&sayi);
+printf("girdigin sayi= %d\n",sayi);
+getch();
+return 1;
+}
