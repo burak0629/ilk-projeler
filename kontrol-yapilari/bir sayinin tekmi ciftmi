@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+int s1;
+printf("bir sayi gir");
+scanf("%d",&s1);
+if(s1%2==0){
+printf("girdigin sayi=cifttir");
+}
+else{
+printf("girdigin sayi=tektir");
+}
+getch();
+return 1;
+}
