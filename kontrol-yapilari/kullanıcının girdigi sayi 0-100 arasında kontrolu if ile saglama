@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main(){
+int s1;
+scanf("%d",&s1);
+	if((s1<0) || (s1>100)){
+	printf("0-100 arasinda degil");
+	}
+	else{
+	printf("0-100 arasndadir");
+	}
+
+
+getch();
+}
