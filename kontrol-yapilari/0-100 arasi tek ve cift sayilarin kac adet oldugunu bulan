@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main(){
+int i,cs=0,ts=0;
+for(i=0;i<100;i++){
+	if(i%2==0){
+	cs++;
+	}
+	else{
+	ts++;
+	}
+}
+printf("%d adet tek sayi\n %d adet cift sayi vardir",ts,cs);
+getch();
+}
