@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main(){
+int i,cs=0,ts=0,s1,s2;
+printf("klavyeden 2 sayi gir:");
+scanf("%d %d",&s1,&s2);
+for(i=s1;s1<s2;i++){
+	if(i%2==0){
+	cs++;
+	}
+	else{
+	ts++;
+	}
+}
+printf("%d ile  %d  arasinda  %d adet cift---> %d adet tek sayi vardir",s1,s2,ts,cs);
+getch();
+}
