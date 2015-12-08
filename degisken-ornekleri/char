@@ -2,6 +2,10 @@
 int main(){
 char tus,secim='A';
 tus='a';
-printf("tusun char degeri: %C\n",tus);
-printf("tusun char degeri: %C\n",tus);
+printf("tusun char degeri: %c\n",tus);
+printf("tusun sayi degeri: %d\n",tus);
+printf("secim char degeri: %c\n",secim);
+printf("secimin sayi degeri: %d\n",secim);
+getch();
+return 1;
 }
