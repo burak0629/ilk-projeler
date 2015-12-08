@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int sayi;
+float not=65.45;
+sayi=(int)not;
+printf("girdigin sayi= %d",sayi);
+getch();
+return 1;
+}
