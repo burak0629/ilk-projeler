@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(){
+int s1;
+scanf("%d",&s1);
+	if(s1<0)
+	s1*=-1;
+	printf("sayinin mutlak degeri =%d",s1);
+	getch();
+}
