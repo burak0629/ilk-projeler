@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+int s1,s2;
+printf("2 sayi gir");
+scanf("%d %d",&s1,&s2);
+if(s1>s2){
+printf("s1 büyük");
+}
+else if(s2>s1){
+printf("s2 büyük");
+}
+else{
+printf("2 sayi birbirine esittir");
+}
+getch();
+return 1;
+}
