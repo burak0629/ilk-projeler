@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+char tus,secim='A';
+tus='a';
+printf("tusun char degeri: %C\n",tus);
+printf("tusun char degeri: %C\n",tus);
+}
