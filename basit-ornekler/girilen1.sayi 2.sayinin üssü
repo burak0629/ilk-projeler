@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+int i,x,y,sonuc=1;
+printf("taban sayisi ve ussu gir\n");
+	scanf("%d %d",&x,&y);
+for(i=1;i<=y;i++){
+	
+	sonuc=sonuc*x;
+}
+printf("%d ussu %d sonucu==> %d",x,y,sonuc);
+getch();
+}
