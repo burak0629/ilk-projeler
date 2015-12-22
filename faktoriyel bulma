@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main(){
+int i,sayi,sonuc=0;
+printf("bir sayi gir\n");
+	scanf("%d",&sayi);
+for(i=sayi;i>=0;i--){
+	
+	sonuc=sonuc*i;
+}
+printf("sonucu==> %d",sonuc);
+getch();
+}
